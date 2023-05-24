@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fbfb6c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 40px;
+  background-color: #9191fa;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  padding-right: 40px;
+}
+ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fbfb6c;
+}
+
+h1 {
+  font-size: 32px;
+  color: #5858ff;
+  text-align: center;
+  padding: 15px;
+}
+
+.img-marco-zero {
+  width: 100%;
+  height: 500px;
+}
+
+.marco-zero {
+  padding: 30px 30px 150px 30px;
+}
+
+.marco-zero h2 {
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.marco-zero p {
+  font-size: 18px;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+
+.marco-zero strong {
+  color: #5858ff;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 50px;
+  text-align: center;
+  background-color: #9191fa;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fbfb6c;
+}
+
+.e-coracao {
+  color: #ff0000;
+}
+
+/* Outros pontos turisticos */
+
+.container-pontos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0 150px 0;
+}
+
+.container-pontos img {
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.container-pontos figcaption {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5858ff;
+}
